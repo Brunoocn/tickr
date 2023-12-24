@@ -12,10 +12,6 @@ export default async function middleware(request: NextRequest) {
   if (request.nextUrl.pathname === "/dashboard" && !token) {
     return NextResponse.redirect(homeURL);
   }
-
-  if (!token && request.nextUrl.pathname === "/dashboard") {
-    return NextResponse.redirect(homeURL);
-  }
 }
 
 export const config = {
