@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
 
 export default function Header() {
@@ -22,20 +23,22 @@ export default function Header() {
         cursor="pointer"
       />
 
-      <Button
-        background="purple.200"
-        transition="0.2s"
-        borderRadius="4px"
-        width="173px"
-        height="44px"
-        gap="10px"
-        color={"#fff"}
-        _hover={{
-          filter: "brightness(80%)",
-        }}
-      >
-        Entrar
-      </Button>
+      <Link href="/auth/signin">
+        <Button
+          background="purple.200"
+          transition="0.2s"
+          borderRadius="4px"
+          width="173px"
+          height="44px"
+          gap="10px"
+          color={"#fff"}
+          _hover={{
+            filter: "brightness(80%)",
+          }}
+        >
+          Entrar
+        </Button>
+      </Link>
     </Flex>
   );
 }
