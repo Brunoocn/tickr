@@ -1,29 +1,3 @@
-export const footerLinksFaleConosco = [
-  {
-    label: "Telefone: (11) 9999-9999",
-    link: "/",
-  },
-  {
-    label: "Segunda a Sexta, das 09:00 às 18:00.",
-    link: "/",
-  },
-];
-
-export const footerLinksInstitucional = [
-  {
-    label: "Política de Privacidade",
-    link: "#",
-  },
-  {
-    label: "Termos de Uso",
-    link: "#",
-  },
-  {
-    label: "Converse Conosco",
-    link: "#",
-  },
-];
-
 export const stepsData = [
   {
     title: "Identifique-se",
@@ -42,5 +16,32 @@ export const stepsData = [
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
     step: "03",
+  },
+];
+
+export const benefitsData = [
+  {
+    icon: "/assets/icons/icon-chat.png",
+    title: "100% Online",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+  },
+  {
+    icon: "/assets/icons/icon-world.png",
+    title: "Venda seu ingresso quando quiser",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+  },
+  {
+    icon: "/assets/icons/icon-bag.png",
+    title: "Facilidade",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+  },
+  {
+    icon: "/assets/icons/icon-shield.png",
+    title: "Segurança",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
   },
 ];
