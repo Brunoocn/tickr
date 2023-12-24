@@ -2,7 +2,7 @@ import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
 
 export default function Main() {
   return (
-    <Flex maxW="1500px" mx="auto" mt="110px" justify="center">
+    <Flex maxW="1200px" mx="auto" mt="110px" justify="center">
       <Flex flexDir={["column", "row"]} gap="40px" align="center" maxW="1500px">
         <Box>
           <Text fontSize="36px" lineHeight="57px" maxW="800px" color="blue.150">

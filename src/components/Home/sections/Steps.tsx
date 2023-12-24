@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { Box, Flex, Text } from "@chakra-ui/react";
 import { stepsData } from "../data";
@@ -9,7 +9,7 @@ type IStep = {
   step: string;
 };
 
-export function Steps() {
+export default function Steps() {
   return (
     <Flex
       w="100%"
@@ -20,7 +20,7 @@ export function Steps() {
       <Flex
         background="linear-gradient(to right bottom, #8b08f4, #a105f5, #b605f6, #c909f7, #db11f8)"
         borderRadius="8px"
-        maxW={"1500px"}
+        maxW={"1200px"}
         justify="center"
         flexDir="column"
         w="100%"

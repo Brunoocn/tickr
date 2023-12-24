@@ -1,17 +1,17 @@
-'use client'
+"use client";
 import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
 
 export default function Header() {
   return (
     <Flex
-      maxW="1500px"
+      maxW="1200px"
       justify="center"
       background="#fff"
       mx="auto"
       alignItems="center"
       justifyContent="space-between"
       height="80px"
-      px="20px"
+      px={["20px", "0"]}
     >
       <Image
         src={`/assets/logo-tickr-svg.svg`}

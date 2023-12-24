@@ -10,6 +10,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
     colors: {
       gray: {
         50: "#717171",
+        100: "#718096",
       },
       blue: {
         150: "#132053",
